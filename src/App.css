@@ -1,0 +1,94 @@
+.about-container {
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 20px;
+  background: #f8f9fa;
+  border-radius: 20px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  font-family: Arial, sans-serif;
+}
+
+.about-title {
+  font-size: 2rem;
+  margin-bottom: 15px;
+  text-align: center;
+  color: #333;
+}
+
+.about-text {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 25px;
+  color: #555;
+  text-align: center;
+}
+
+.contact-section {
+  margin-top: 20px;
+  padding-left: 20px;
+  text-align: left;
+}
+
+.contact-title {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+  color: #222;
+}
+
+.contact-list {
+  list-style: none;
+  text-align: left;
+  padding: 0;
+}
+
+.contact-list li {
+  display: flex;
+  margin: 10px 0;
+  font-size: 1.1rem;
+  align-items: center;
+  gap: 8px;
+}
+
+.contact-list a {
+  color: #0077cc;
+  text-decoration: none;
+}
+
+.contact-list a:hover {
+  text-decoration: underline;
+}
+
+.copy-text {
+  cursor: pointer;
+  color: #0077cc;
+  position: relative;
+}
+
+.copy-text:hover {
+  text-decoration: underline;
+}
+
+.copied-tooltip {
+  margin-left: 10px;
+  font-size: 0.9rem;
+  color: green;
+  animation: fadeout 2s forwards;
+}
+
+@keyframes fadeout {
+  0% { opacity: 1; }
+  80% { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;   
+  height: 100vh;         
+  background-color: #f0f2f5; 
+  width: 100vw;
+  background: #0f0c29;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
